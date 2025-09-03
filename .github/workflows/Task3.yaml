@@ -10,7 +10,7 @@ on:
 
 jobs:
   job1:
-    uses: ./.github/workflows/task3-reusable.yml
+    uses: ./.github/workflows/task3-reusable.yaml
     with:
       name: ${{ inputs.name }}
 
